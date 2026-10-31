@@ -10,6 +10,14 @@ This package is the `bishop-bot` fork of
 It is published under the `@bishopbot` npm scope; the upstream package keeps the
 unscoped `lightweight-charts` name and the `@tradingview` scope.
 
+## 6.0.1 - 2026-10-31
+
+### Fixed
+
+- The published bundle is built with the release tag, so `version()` reports
+  `6.0.1` rather than the development build string `6.0.0-dev+<timestamp>` it
+  carried in `6.0.0`. The library itself is unchanged.
+
 ## 6.0.0 - 2026-10-31
 
 First release of the fork. The package is published as
